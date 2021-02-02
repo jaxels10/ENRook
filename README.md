@@ -27,8 +27,23 @@
 **Root access**  
 > sudo su -
 
-**Find string in folder**  
-> grep -rnw '/path/' -e 'string'
+**Watch pods**  
+> watch kubectl -n rook-ceph get pod
+
+**Describe pod**  
+> kubectl describe pod -n rook-ceph pod-name
+
+**Get logs from pod**  
+> kubectl logs -n rook-ceph pod-name
+
+**Root access**  
+> sudo su -
+
+**Root access**  
+> sudo su -
+
+**Root access**  
+> sudo su -
 
 ### Helm
 **Download Helm**  
