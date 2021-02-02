@@ -2,6 +2,9 @@
 
 ## Table of Contents
 [General](#General)
+[Kubernetes](#Kubernetes)
+[Helm](#Helm)
+[Github](#Github)
 
 ### Useful commands
 
