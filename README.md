@@ -1,13 +1,16 @@
 # ENRook
 
-## Useful commands
+## Table of Contents
+[General](#General)
 
-### General
+### Useful commands
+
+<a name="headers"/>
+#### General
 **Find string in folder**  
 > grep -rnw '/path/' -e 'string'
 
-
-### Kubernetes
+#### Kubernetes
 **Create namespace**  
 > kubectl create namespace rook-ceph
 
@@ -45,7 +48,7 @@
 **Root access**  
 > sudo su -
 
-### Helm
+#### Helm
 **Download Helm**  
 > wget https://get.helm.sh/helm-v3.5.0-linux-amd64.tar.gz
 
@@ -58,6 +61,6 @@
 **Install chart**
 > helm install -n rook-ceph rook-ceph ~/rook/
 
-### Github
+#### Github
 **Clone this repo**
 > git clone https://github.com/jaxels10/ENRook.git
