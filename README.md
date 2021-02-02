@@ -5,7 +5,7 @@
 
 ### Useful commands
 
-<a name="headers"/>
+
 #### General
 **Find string in folder**  
 > grep -rnw '/path/' -e 'string'
