@@ -42,6 +42,9 @@
 **Get logs from pod**  
 > kubectl logs -n rook-ceph pod-name
 
+**Bash into toolbox**
+> kubectl -n rook-ceph exec -it deploy/rook-ceph-tools -- bash
+
 **Root access**  
 > sudo su -
 
