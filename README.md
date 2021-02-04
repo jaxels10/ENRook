@@ -13,6 +13,9 @@
 **Find string in folder**  
 > grep -rnw '/path/' -e 'string'
 
+**Change hostname**
+> sudo hostnamectl set-hostname k8s-master
+
 ### Kubernetes
 **Create namespace**  
 > kubectl create namespace rook-ceph
